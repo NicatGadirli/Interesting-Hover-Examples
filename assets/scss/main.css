@@ -1,0 +1,57 @@
+.home {
+  height: 100vh;
+  background-color: #fd2549;
+  color: #E5E6F1;
+}
+.home .cardBox {
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  transition: all 0.6s;
+}
+.home .cardBox .card {
+  border-radius: 5px;
+  margin: 200px 0px;
+  width: 257px;
+  height: 250px;
+  border: 3px dotted #000;
+  padding: 60px 20px;
+  transition: all 0.6s;
+}
+.home .cardBox .card:hover {
+  border: 3px solid #E5E6F1;
+  padding-top: 70px;
+}
+.home .cardBox .card:hover .cardTitle {
+  transform: translateY(-10px);
+}
+.home .cardBox .card:hover .card i {
+  transform: translateY(5px);
+}
+.home .cardBox .card i {
+  font-size: 100px;
+  transform: translateY(0px);
+  transition: 0.6s ease;
+  margin-bottom: 40px;
+}
+.home .cardBox .card .cardTitle {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transform: translateY(0px);
+  transition: all 0.5s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+}/*# sourceMappingURL=main.css.map */
